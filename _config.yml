@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt
 locale                   : "en-US"
 title                    : "Sahngmin Yoo"
 title_separator          : "-"
-subtitle                 : "Applied ML Engineer · RL Post-Training · Multimodal Retrieval"
+subtitle                 :
 name                     : "Sahngmin Yoo"
 description              : "Applied ML Engineer building RL-post-trained multimodal retrieval and on-device AI systems."
 url                      : "https://sahngmin.github.io"

@@ -1,16 +1,17 @@
 ---
 permalink: /
-title: "Sahngmin Yoo"
-excerpt: "Applied ML Engineer specializing in RL post-training and multimodal retrieval"
+title: "Applied ML Engineer for Multimodal AI"
+excerpt: "RL post-training, multimodal retrieval, and efficient on-device AI"
 author_profile: true
+hide_author_identity: true
 redirect_from:
   - /about/
   - /about.html
 ---
 
-I am an AI/ML Researcher at **Samsung Electronics**, where I build compact multimodal agents that connect natural-language intent with visual evidence. My current work focuses on **RL post-training**, **cross-modal text–image retrieval**, grounded visual question answering, and efficient on-device AI.
+I build compact multimodal agents at **Samsung Electronics** that connect natural-language intent with visual evidence—from **RL post-training** and **cross-modal text–image retrieval** to grounded visual question answering and efficient on-device AI.
 
-I received my Ph.D., M.S., and B.S. in Electrical Engineering from **KAIST**. Across Samsung, Klleon, and KAIST, I have taken models from research prototypes to real-time and mobile deployments—from retrieval-grounded language models to multimodal person clustering and generative vision systems.
+I earned my Ph.D., M.S., and B.S. in Electrical Engineering from **KAIST**. Across Samsung, Klleon, and KAIST, I have led work from research prototypes to deployed products spanning retrieval-grounded language models, multimodal person clustering, and generative vision.
 
 <div class="impact-strip" aria-label="Career and research highlights">
   <div><strong>9 years</strong><span>research & industry</span></div>
@@ -19,7 +20,10 @@ I received my Ph.D., M.S., and B.S. in Electrical Engineering from **KAIST**. Ac
   <div><strong>12</strong><span>patent filings & grants</span></div>
 </div>
 
-[[Curriculum Vitae]](/images/Sahngmin_Yoo_CV_v2.pdf) · [[Google Scholar]](https://scholar.google.com/citations?user=YDQ6lwcAAAAJ&hl=en) · [[LinkedIn]](https://www.linkedin.com/in/sahngmin-yoo-31bb5b255)
+<nav class="hero-actions" aria-label="Primary profile links">
+  <a class="hero-action hero-action--primary" href="/images/Sahngmin_Yoo_CV_v2.pdf">View CV</a>
+  <a class="hero-action" href="https://scholar.google.com/citations?user=YDQ6lwcAAAAJ&hl=en">Google Scholar</a>
+</nav>
 
 <a id="research"></a>
 ## Research & Product Highlights
