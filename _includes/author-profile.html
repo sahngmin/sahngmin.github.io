@@ -11,18 +11,21 @@
     </div>
   {% endif %}
 
-  {% unless page.hide_author_identity %}
-    <div class="author__content">
-      <h3 class="author__name p-name" itemprop="name">
-        <a class="u-url" rel="me" href="{{ author.home | default: '/' | absolute_url }}" itemprop="url">{{ author.name }}</a>
-      </h3>
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="{{ author.home | default: '/' | absolute_url }}" itemprop="url">{{ author.name }}</a>
+    </h3>
+    {% if author.headline %}
+      <div class="author__headline">{{ author.headline }}</div>
+    {% endif %}
+    {% unless page.hide_author_bio %}
       {% if author.bio %}
         <div class="author__bio p-note" itemprop="description">
           {{ author.bio | markdownify }}
         </div>
       {% endif %}
-    </div>
-  {% endunless %}
+    {% endunless %}
+  </div>
 
   <div class="author__urls-wrapper">
     <button class="btn btn--inverse">{{ site.data.ui-text[site.locale].follow_label | remove: ":" | default: "Follow" }}</button>

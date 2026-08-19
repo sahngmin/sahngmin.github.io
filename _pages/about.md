@@ -3,7 +3,7 @@ permalink: /
 title: "Applied ML Engineer for Multimodal AI"
 excerpt: "RL post-training, multimodal retrieval, and efficient on-device AI"
 author_profile: true
-hide_author_identity: true
+hide_author_bio: true
 redirect_from:
   - /about/
   - /about.html

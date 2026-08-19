@@ -29,6 +29,13 @@
     transform: scale(1.02);
   }
 
+  .author__headline {
+    margin-top: 0.2rem;
+    color: #65717c;
+    font-size: 0.72rem;
+    line-height: 1.35;
+  }
+
   .impact-strip,
   .career-grid {
     display: grid;
@@ -160,6 +167,27 @@
 
     .career-grid {
       grid-template-columns: 1fr;
+    }
+  }
+
+  @media (max-width: 1023px) {
+    .author__avatar {
+      display: block;
+      width: 52px;
+      height: 52px;
+    }
+
+    .author__content {
+      display: block;
+      padding: 0;
+    }
+
+    .author__name {
+      margin: 0.55rem 0 0;
+    }
+
+    .author__urls-wrapper {
+      margin-top: 0.55rem;
     }
   }
 
