@@ -66,33 +66,33 @@ I earned my Ph.D., M.S., and B.S. in Electrical Engineering from **KAIST**. Acro
 ### Peer-Reviewed
 
 - **Beyond Faces: A Multimodal Person Clustering for Unconstrained Environments**<br>
-  **S. M. Yoo**, S. Lee, S. Jo · **WACV 2026** · [[Google Scholar]](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=YDQ6lwcAAAAJ&citation_for_view=YDQ6lwcAAAAJ:UeHWp8X0CEIC)
+  **S. M. Yoo**, S. Lee, S. Jo · **WACV 2026** · [[paper]](https://openaccess.thecvf.com/content/WACV2026/papers/Yoo_Beyond_Faces_A_Multimodal_Person_Clustering_for_Unconstrained_Environments_WACV_2026_paper.pdf) · [[Google Scholar]](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=YDQ6lwcAAAAJ&citation_for_view=YDQ6lwcAAAAJ:UeHWp8X0CEIC)
 
 - **Towards High-Fidelity Head Blending with Chroma Keying for Industrial Applications**<br>
-  H. M. Lew<sup>*</sup>, **S. M. Yoo<sup>*</sup>**, H. Kang, G. M. Park · **WACV 2025** · [[paper]](https://arxiv.org/abs/2411.00652) · [[Google Scholar]](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=YDQ6lwcAAAAJ&citation_for_view=YDQ6lwcAAAAJ:Tyk-4Ss8FVUC)
+  H. M. Lew<sup>*</sup>, **S. M. Yoo<sup>*</sup>**, H. Kang, G. M. Park · **WACV 2025** · [[paper]](https://openaccess.thecvf.com/content/WACV2025/html/Lew_Towards_High-Fidelity_Head_Blending_with_Chroma_Keying_for_Industrial_Applications_WACV_2025_paper.html) · [[Google Scholar]](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=YDQ6lwcAAAAJ&citation_for_view=YDQ6lwcAAAAJ:Tyk-4Ss8FVUC)
 
 - **FastSwap: A Lightweight One-Stage Framework for Real-Time Face Swapping**<br>
-  **S. M. Yoo**, T. M. Choi, J. W. Choi, J. H. Kim · **WACV 2023** · [[Google Scholar]](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=YDQ6lwcAAAAJ&citation_for_view=YDQ6lwcAAAAJ:zYLM7Y9cAGgC)
+  **S. M. Yoo**, T. M. Choi, J. W. Choi, J. H. Kim · **WACV 2023** · [[paper]](https://openaccess.thecvf.com/content/WACV2023/html/Yoo_FastSwap_A_Lightweight_One-Stage_Framework_for_Real-Time_Face_Swapping_WACV_2023_paper.html) · [[Google Scholar]](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=YDQ6lwcAAAAJ&citation_for_view=YDQ6lwcAAAAJ:zYLM7Y9cAGgC)
 
 - **ChangeSim: Towards End-to-End Online Scene Change Detection in Industrial Indoor Environments**<br>
-  J. M. Park, J. H. Jang, **S. M. Yoo**, S. K. Lee, U. H. Kim, J. H. Kim · **IROS 2021** · [[Google Scholar]](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=YDQ6lwcAAAAJ&citation_for_view=YDQ6lwcAAAAJ:IjCSPb-OGe4C)
+  J. M. Park, J. H. Jang, **S. M. Yoo**, S. K. Lee, U. H. Kim, J. H. Kim · **IROS 2021** · [[paper]](https://ieeexplore.ieee.org/document/9636350) · [[Google Scholar]](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=YDQ6lwcAAAAJ&citation_for_view=YDQ6lwcAAAAJ:IjCSPb-OGe4C)
 
 - **Convolutional Neural Network with Developmental Memory for Continual Learning**<br>
-  G. M. Park, **S. M. Yoo**, J. H. Kim · **IEEE TNNLS 2021** · [[Google Scholar]](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=YDQ6lwcAAAAJ&citation_for_view=YDQ6lwcAAAAJ:qjMakFHDy7sC)
+  G. M. Park, **S. M. Yoo**, J. H. Kim · **IEEE TNNLS 2021** · [[paper]](https://ieeexplore.ieee.org/document/9145832) · [[Google Scholar]](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=YDQ6lwcAAAAJ&citation_for_view=YDQ6lwcAAAAJ:qjMakFHDy7sC)
 
 - **Type Anywhere You Want: An Introduction to Invisible Mobile Keyboard**<br>
-  **S. M. Yoo**, U. H. Kim, Y. Hwang, J. H. Kim · **IJCAI 2021** · [[Google Scholar]](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=YDQ6lwcAAAAJ&citation_for_view=YDQ6lwcAAAAJ:9yKSN-GCB0IC)
+  **S. M. Yoo**, U. H. Kim, Y. Hwang, J. H. Kim · **IJCAI 2021** · [[paper]](https://www.ijcai.org/proceedings/2021/242) · [[Google Scholar]](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=YDQ6lwcAAAAJ&citation_for_view=YDQ6lwcAAAAJ:9yKSN-GCB0IC)
 
 - **I-Keyboard: Fully Imaginary Keyboard on Touch Devices Empowered by Deep Neural Decoder**<br>
-  U. H. Kim, **S. M. Yoo**, J. H. Kim · **IEEE Transactions on Cybernetics** · [[Google Scholar]](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=YDQ6lwcAAAAJ&citation_for_view=YDQ6lwcAAAAJ:u-x6o8ySG0sC)
+  U. H. Kim, **S. M. Yoo**, J. H. Kim · **IEEE Transactions on Cybernetics** · [[paper]](https://doi.org/10.1109/TCYB.2019.2952391) · [[Google Scholar]](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=YDQ6lwcAAAAJ&citation_for_view=YDQ6lwcAAAAJ:u-x6o8ySG0sC)
 
 - **Human Robot Social Interaction Framework Based on Emotional Episodic Memory**<br>
-  W. H. Lee, **S. M. Yoo**, J. W. Choi, U. H. Kim, J. H. Kim · **RiTA 2018** · [[DBLP]](https://dblp.org/rec/conf/rita/LeeYCKK18)
+  W. H. Lee, **S. M. Yoo**, J. W. Choi, U. H. Kim, J. H. Kim · **RiTA 2018** · [[paper]](https://link.springer.com/chapter/10.1007/978-981-13-7780-8_9) · [[DBLP]](https://dblp.org/rec/conf/rita/LeeYCKK18)
 
 ### Preprint
 
 - **Continual Unsupervised Domain Adaptation for Semantic Segmentation**<br>
-  J. Kim<sup>*</sup>, **S. M. Yoo<sup>*</sup>**, G. M. Park, J. H. Kim · **arXiv 2020** · [[Google Scholar]](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=YDQ6lwcAAAAJ&citation_for_view=YDQ6lwcAAAAJ:2osOgNQ5qMEC)
+  J. Kim<sup>*</sup>, **S. M. Yoo<sup>*</sup>**, G. M. Park, J. H. Kim · **arXiv 2020** · [[paper]](https://arxiv.org/abs/2010.09236) · [[Google Scholar]](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=YDQ6lwcAAAAJ&citation_for_view=YDQ6lwcAAAAJ:2osOgNQ5qMEC)
 
 <small><sup>*</sup> Equal contribution.</small>
 
@@ -105,11 +105,12 @@ I earned my Ph.D., M.S., and B.S. in Electrical Engineering from **KAIST**. Acro
 <a id="patents"></a>
 ## Patents & IP
 
-**12 patent applications and registrations** across efficient input systems, continual adaptation, generative vision, multimodal person clustering, and AI content recommendation. Four recent filings are listed by invention title while public patent-database indexing is pending.
+**12 patent applications and registrations** across efficient input systems, continual adaptation, generative vision, multimodal person clustering, and AI content recommendation. Five recent filings are listed by invention title while public patent-database indexing is pending.
 
 <ol class="patent-list">
   <li><span class="patent-status">FILED · 2026</span><div><strong>Electronic Device for Providing Recommended Content and Operating Method for the Same</strong><code>KR10-2026-0113923 · public search pending</code></div></li>
   <li><span class="patent-status">FILED · 2026</span><div><strong>Method for Performing Face Feature Clustering and Electronic Device for Performing the Same</strong><code>KR10-2026-0034249 · public search pending</code></div></li>
+  <li><span class="patent-status">FILED · 2026</span><div><strong>Method and Non-Transitory Computer-Readable Storage Medium for Clustering of Person</strong><code>application number not listed · public search pending</code></div></li>
   <li><span class="patent-status">FILED · 2025</span><div><strong>Electronic Device and Operating Method for the Same</strong><code>KR10-2025-0093322 · public search pending</code></div></li>
   <li><span class="patent-status">FILED · 2025</span><div><strong>Electronic Device Clustering Individuals Detected in Images and Method Thereof</strong><code>KR10-2025-0075023 · public search pending</code></div></li>
   <li><span class="patent-status">GRANTED · 2025</span><div><strong>Unsupervised Domain Adaptation System and Method</strong><code>KR10-2878012</code><a href="https://patents.google.com/patent/KR102878012B1/en">Google Patents ↗</a></div></li>
@@ -119,5 +120,4 @@ I earned my Ph.D., M.S., and B.S. in Electrical Engineering from **KAIST**. Acro
   <li><span class="patent-status">GRANTED · 2022</span><div><strong>Apparatus for Analysing and Providing Soft Keyboard and Method Thereof</strong><code>KR10-2447469</code><a href="https://patents.google.com/patent/KR102447469B1/en">Google Patents ↗</a></div></li>
   <li><span class="patent-status">GRANTED · 2022</span><div><strong>Method and Apparatus for Face Swapping Using Deep Learning Network</strong><code>KR10-2409988</code><a href="https://patents.google.com/patent/KR102409988B1/en">Google Patents ↗</a></div></li>
   <li><span class="patent-status">GRANTED · 2022</span><div><strong>Decoder Architecture, Operation Method Thereof, and Virtual Keyboard Using Decoder</strong><code>KR10-2355890</code><a href="https://patents.google.com/patent/KR102355890B1/en">Google Patents ↗</a></div></li>
-  <li><span class="patent-status">GRANTED</span><div><strong>Method and Non-Transitory Computer-Readable Storage Medium for Clustering of Person</strong><code>registration number not listed</code></div></li>
 </ol>
