@@ -16,14 +16,14 @@ minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Curriculum Vitae"
+title                    : "Sahngmin Yoo"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Hah Min Lew"
-description              : "Ph.D. student at Korea University"
-url                      : "https://hahminlew.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+subtitle                 : "Applied ML Engineer · RL Post-Training · Multimodal Retrieval"
+name                     : "Sahngmin Yoo"
+description              : "Applied ML Engineer building RL-post-trained multimodal retrieval and on-device AI systems."
+url                      : "https://sahngmin.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "hahminlew/hahminlew.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "sahngmin/sahngmin.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -71,7 +71,7 @@ google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
 # SEO Related
-google_site_verification : "XIXt9QPO3O4ZBcVGy7Ji0AHHP2XQkBGrxjavcZODnis"
+google_site_verification :
 bing_site_verification   :
 naver_site_verification  : 
 yandex_site_verification :
@@ -88,65 +88,55 @@ og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : Person
+  name                   : Sahngmin Yoo
+  links:
+    - "https://github.com/sahngmin"
+    - "https://scholar.google.com/citations?user=YDQ6lwcAAAAJ&hl=en"
+    - "https://www.linkedin.com/in/sahngmin-yoo-31bb5b255"
 
 # Analytics
 analytics:
-  provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : false
   google:
-    tracking_id          : "G-BMWE5JFCTK"
+    tracking_id          :
     anonymize_ip         : # true, false (default)
 
 
 # Site Author
 author:
-  name             : "Hah Min Lew"
-  avatar           : "/images/profile_square.jpg"
-  bio              : "Ph.D. student at Korea University"
+  name             : "Sahngmin Yoo"
+  avatar           : "/profile_picture.jpg"
+  bio              : "AI/ML Researcher at Samsung Electronics · RL Post-Training · Multimodal Retrieval"
   location         : "Seoul, South Korea"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:hahmin.lew@gmail.com"
+      url: "mailto:yoosahngmin@gmail.com"
     - label: "Google Scholar"
       icon: "fas fa-graduation-cap"
-      url: "https://scholar.google.com/citations?user=T-styT4AAAAJ&hl"
+      url: "https://scholar.google.com/citations?user=YDQ6lwcAAAAJ&hl=en"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/hahminlew/"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
+      url: "https://www.linkedin.com/in/sahngmin-yoo-31bb5b255"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/hahminlew"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
-      #
+      url: "https://github.com/sahngmin"
+    - label: "CV"
+      icon: "fas fa-fw fa-file-pdf"
+      url: "/images/Sahngmin_Yoo_CV_v2.pdf"
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/hahminlew"
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "https://github.com/sahngmin"
+    - label: "Google Scholar"
+      icon: "fas fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=YDQ6lwcAAAAJ&hl=en"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/sahngmin-yoo-31bb5b255"
 
 
 # Reading Files
@@ -180,6 +170,11 @@ exclude:
   - tmp
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
+  - /images/HahMinLew_CV.pdf
+  - /images/profile.jpg
+  - /images/profile_square.jpg
+  - /images/outstanding poster award.jpg
+  - /images/best project award.jpg
 keep_files:
   - .git
   - .svn
@@ -237,7 +232,7 @@ defaults:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Seoul
 
 
 # Plugins (previously gems:)
@@ -293,6 +288,3 @@ compress_html:
   clippings: all
   ignore:
     envs: development
-
-
-

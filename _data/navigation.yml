@@ -1,27 +1,14 @@
 # main links
 main:
   - title: "Home"
-    url: https://hahminlew.github.io/
-  - title: "Posts"
-    url: /paper-reviews/
-  - title: "Awards"
-    url: https://hahminlew.github.io/awards/
+    url: /
+  - title: "Research"
+    url: /#research
+  - title: "Experience"
+    url: /#experience
+  - title: "Publications"
+    url: /#publications
   - title: "CV"
-    url: https://hahminlew.github.io/images/HahMinLew_CV.pdf
-  - title: "Project Pages"
-    sublinks:
-      - title: FacePlex
-        url: https://hahminlew.github.io/faceplex/
-      - title: GeoAvatar
-        url: https://hahminlew.github.io/geoavatar/
-      - title: CHANGER
-        url: https://hahminlew.github.io/changer/
-      
-#  - title: "Publications"
-#    url: /#conference-publications
-  #  - title: Test
-  #    url: /#journal-publications
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+    url: /images/Sahngmin_Yoo_CV_v2.pdf
+  - title: "Google Scholar"
+    url: https://scholar.google.com/citations?user=YDQ6lwcAAAAJ&hl=en
