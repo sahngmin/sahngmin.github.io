@@ -57,6 +57,17 @@
     padding-bottom: 4rem;
   }
 
+  .wide-home #main {
+    max-width: 104rem;
+    padding-right: clamp(1rem, 2.5vw, 3rem);
+    padding-left: clamp(1rem, 2.5vw, 3rem);
+  }
+
+  .wide-home .masthead__inner-wrap,
+  .wide-home .page__footer footer {
+    max-width: 104rem;
+  }
+
   .sidebar,
   .sidebar:hover,
   .sidebar:focus-within {
@@ -152,7 +163,7 @@
   }
 
   .hero-lede {
-    max-width: 48rem;
+    max-width: 68rem;
     margin: 0;
     color: #273248;
     font-size: clamp(1.05rem, 2.25vw, 1.38rem);
@@ -161,7 +172,7 @@
   }
 
   .hero-supporting {
-    max-width: 46rem;
+    max-width: 60rem;
     margin-top: 1rem;
     color: var(--portfolio-muted);
     font-size: 0.88rem;
@@ -226,6 +237,7 @@
   }
 
   .hero-action--primary,
+  .hero-action--primary:visited,
   .hero-action--primary:hover,
   .hero-action--primary:focus {
     background: var(--portfolio-blue);
@@ -340,7 +352,7 @@
 
   .publication-grid {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 22rem), 1fr));
     gap: 1rem;
     margin: 1.25rem 0 2rem;
   }
@@ -469,9 +481,9 @@
     }
   }
 
-  @media (max-width: 700px) {
-    .publication-grid {
-      grid-template-columns: 1fr;
+  @media (min-width: 1024px) {
+    .wide-home .page {
+      padding-right: 0;
     }
   }
 
