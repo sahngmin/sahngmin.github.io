@@ -1,6 +1,9 @@
 <!-- start custom head snippets -->
 
 <link rel="icon" href="/images/sahngmin-yoo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500;600&amp;family=Plus+Jakarta+Sans:wght@700;800&amp;family=Space+Grotesk:wght@500;600;700&amp;display=swap">
 
 <style>
   :root {
@@ -153,12 +156,14 @@
     text-decoration: none;
   }
 
-  .hero-kicker {
-    margin: 1.35rem 0 0.75rem;
+  /* `.page__content .hero-kicker`: the theme's `.page__content p` rule otherwise overrides margin and size. */
+  .page__content .hero-kicker {
+    margin: 1.15rem 0 1.35rem;
     color: var(--portfolio-blue);
-    font-size: 0.69rem;
-    font-weight: 800;
-    letter-spacing: 0.13em;
+    font-size: 0.8rem;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    line-height: 1.5;
     text-transform: uppercase;
   }
 
@@ -282,48 +287,106 @@
 
   .research-card {
     position: relative;
-    overflow: hidden;
-    padding: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1.65rem 1.7rem 1.5rem;
     border: 1px solid var(--portfolio-border);
     border-radius: var(--portfolio-radius);
-    background: linear-gradient(145deg, #fff 0%, #f8faff 100%);
+    background: linear-gradient(160deg, #fff 0%, #f8faff 100%);
+    transition: border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
   }
 
-  .research-card::after {
-    position: absolute;
-    right: -2.5rem;
-    bottom: -3rem;
-    width: 7rem;
-    height: 7rem;
-    border-radius: 50%;
-    background: rgba(37, 87, 214, 0.055);
-    content: "";
+  .research-card:hover {
+    border-color: #c9d6f2;
+    box-shadow: 0 14px 34px rgba(25, 45, 85, 0.08);
+    transform: translateY(-2px);
   }
 
   .research-card__index {
-    display: inline-grid;
-    width: 2rem;
-    height: 2rem;
-    place-items: center;
-    border-radius: 50%;
-    background: var(--portfolio-blue-soft);
-    color: var(--portfolio-blue);
-    font-size: 0.65rem;
-    font-weight: 800;
+    position: absolute;
+    top: 1.9rem;
+    right: 1.7rem;
+    color: #b0b9ca;
+    font-family: var(--font-mono);
+    font-size: 0.66rem;
+    font-weight: 500;
+    letter-spacing: 0.04em;
   }
 
   .research-card h3 {
-    margin: 0.85rem 0 0.5rem;
-    font-size: 1rem;
+    margin: 0 0 1rem;
+    padding-right: 2.5rem;
+    color: var(--portfolio-ink);
+    font-family: var(--font-display);
+    font-size: clamp(1.15rem, 1.9vw, 1.32rem);
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    line-height: 1.25;
+  }
+
+  .research-card__metric {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    padding: 0.75rem 0.95rem 0.8rem;
+    border-left: 3px solid var(--portfolio-blue);
+    border-radius: 0.2rem 0.55rem 0.55rem 0.2rem;
+    background: var(--portfolio-blue-soft);
+  }
+
+  .research-card__metric span {
+    color: #5d6b85;
+    font-family: var(--font-mono);
+    font-size: 0.64rem;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    line-height: 1.45;
+    text-transform: uppercase;
+  }
+
+  .research-card__metric strong {
+    color: var(--portfolio-blue-dark);
+    font-family: var(--font-display);
+    font-size: clamp(1.02rem, 1.6vw, 1.12rem);
+    font-variant-numeric: tabular-nums;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    line-height: 1.2;
   }
 
   .research-card p {
-    position: relative;
-    z-index: 1;
+    margin: 1.05rem 0 0;
+    color: #4a566b;
+    font-size: 0.84rem;
+    line-height: 1.72;
+  }
+
+  .research-card p strong {
+    color: var(--portfolio-ink);
+    font-weight: 600;
+  }
+
+  .research-card__tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin: auto 0 0;
+    padding: 1.2rem 0 0;
+    list-style: none;
+  }
+
+  .research-card__tags li {
     margin: 0;
-    color: #59657a;
-    font-size: 0.79rem;
-    line-height: 1.65;
+    padding: 0.25rem 0.55rem;
+    border: 1px solid #dde4f1;
+    border-radius: 0.4rem;
+    background: #fff;
+    color: #3a4762;
+    font-family: var(--font-mono);
+    font-size: 0.62rem;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    line-height: 1.4;
   }
 
   .career-card {
@@ -335,14 +398,20 @@
   }
 
   .career-card h3 {
-    margin: 0.25rem 0 0.1rem;
-    font-size: 1rem;
+    margin: 0.4rem 0 0;
+    font-size: 1.12rem;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    line-height: 1.3;
   }
 
-  .career-card__role {
-    margin: 0 0 0.65rem;
+  /* `.page__content` prefix: the theme's `.page__content p` rule otherwise overrides size and margin. */
+  .page__content .career-card__role {
+    margin: 0.2rem 0 0.8rem;
     color: var(--portfolio-blue-dark);
-    font-weight: 700;
+    font-size: 0.84rem;
+    font-weight: 500;
+    line-height: 1.4;
   }
 
   .career-card p:last-child {
@@ -355,6 +424,11 @@
     grid-template-columns: repeat(auto-fit, minmax(min(100%, 22rem), 1fr));
     gap: 1rem;
     margin: 1.25rem 0 2rem;
+  }
+
+  /* auto-fill keeps empty tracks, so a lone card keeps the same column width as the grid above. */
+  .publication-grid--fill {
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 22rem), 1fr));
   }
 
   .publication-card {
@@ -468,6 +542,69 @@
 
   .page__footer a {
     color: #e8edf7;
+  }
+
+  /* Typography system: Inter for text, Space Grotesk for display, JetBrains Mono for metadata. */
+  :root {
+    --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    --font-display: "Space Grotesk", "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-title: "Plus Jakarta Sans", "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  }
+
+  body,
+  input,
+  button,
+  .btn,
+  .masthead__inner-wrap {
+    font-family: var(--font-sans);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .page__title,
+  .author__name,
+  .impact-strip strong {
+    font-family: var(--font-display);
+  }
+
+  .page__title {
+    font-family: var(--font-title);
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    line-height: 1.12;
+  }
+
+  .page__content h2 {
+    font-weight: 600;
+    letter-spacing: -0.02em;
+  }
+
+  tt,
+  code,
+  kbd,
+  samp,
+  pre,
+  .hero-kicker,
+  .career-card__date,
+  .patent-status,
+  .publication-card__meta {
+    font-family: var(--font-mono);
+  }
+
+  .publication-card__meta {
+    font-weight: 600;
+    letter-spacing: 0.04em;
+  }
+
+  .career-card__date,
+  .patent-status {
+    font-size: 0.66rem;
+    letter-spacing: 0;
   }
 
   @media (max-width: 900px) {

@@ -35,22 +35,30 @@ redirect_from:
   <article class="research-card">
     <span class="research-card__index">01</span>
     <h3>RL Post-Training for Retrieval</h3>
+    <div class="research-card__metric"><span>full-corpus reciprocal rank · +23.7% vs SFT</span><strong>0.617 → 0.763</strong></div>
     <p>Improved full-corpus retrieval reciprocal rank by <strong>23.7%</strong> (0.617 to 0.763) over an SFT baseline on 300 held-out queries across 10,275 screens. Trained a 0.8B Query Router with DPO on 1,523 retrieval-grounded preference pairs, and separately applied GRPO to grounded VLM answer generation.</p>
+    <ul class="research-card__tags" aria-label="Methods and tools"><li>DPO</li><li>GRPO</li><li>Query Routing</li><li>VLM</li></ul>
   </article>
   <article class="research-card">
     <span class="research-card__index">02</span>
     <h3>Cross-Modal Gallery Agent</h3>
+    <div class="research-card__metric"><span>synthetic train &amp; eval examples · 450M SLM</span><strong>200K+</strong></div>
     <p>Own a 450M-parameter LoRA SLM Query Processor and PEFT-tuned VLM Answer Generator for Samsung's Gallery Agent. Built <strong>200K+</strong> synthetic training and evaluation examples that connect underspecified text requests to OCR, visual, source-app, temporal, and abstention signals.</p>
+    <ul class="research-card__tags" aria-label="Methods and tools"><li>LoRA</li><li>PEFT</li><li>SLM / VLM</li><li>Synthetic Data</li><li>OCR</li></ul>
   </article>
   <article class="research-card">
     <span class="research-card__index">03</span>
     <h3>On-Device Multimodal AI</h3>
+    <div class="research-card__metric"><span>25× smaller · 87.97% avg recall</span><strong>344 MB → 13.4 MB</strong></div>
     <p>Led and shipped a person-clustering system that fuses face, appearance, language-guided vision, and graph-density signals. Achieved <strong>87.97% average recall</strong> and compressed the vision model <strong>25×</strong>, from 344 MB to 13.4 MB, using CNN distillation and TFLite FP16 quantization.</p>
+    <ul class="research-card__tags" aria-label="Methods and tools"><li>Distillation</li><li>TFLite</li><li>FP16 Quantization</li><li>Graph Clustering</li></ul>
   </article>
   <article class="research-card">
     <span class="research-card__index">04</span>
     <h3>Retrieval Evaluation</h3>
+    <div class="research-card__metric"><span>screens (SHARD) · queries (SpreadRAG)</span><strong>10,275 · 31,089</strong></div>
     <p>Built <strong>SHARD</strong>, a 10,275-screen benchmark for underspecified screenshot retrieval, and <strong>SpreadRAG</strong>, a 31,089-query stress test for retrieval when multi-hop evidence is dispersed.</p>
+    <ul class="research-card__tags" aria-label="Methods and tools"><li>Benchmarking</li><li>Screenshot Retrieval</li><li>Multi-hop RAG</li></ul>
   </article>
 </div>
 
@@ -176,7 +184,7 @@ redirect_from:
 
 ### Preprint
 
-<div class="publication-grid">
+<div class="publication-grid publication-grid--fill">
   <article class="publication-card">
     <a class="publication-card__visual" href="https://arxiv.org/pdf/2010.09236" aria-label="Open Continual UDA preprint">
       <img src="{{ '/images/publications/continual-uda.jpg' | relative_url }}" alt="Semantic segmentation results with and without target memory" loading="lazy" decoding="async">
