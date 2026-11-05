@@ -607,6 +607,44 @@
     letter-spacing: 0;
   }
 
+  .page__content .header-link {
+    color: var(--portfolio-muted);
+  }
+
+  .page__content .header-link:hover,
+  .page__content .header-link.is-copied {
+    color: var(--portfolio-blue);
+  }
+
+  .page__content .header-link.is-copied {
+    opacity: 1;
+  }
+
+  .page__content .header-link::after {
+    position: absolute;
+    top: 50%;
+    left: calc(100% + 0.55rem);
+    padding: 0.28rem 0.55rem;
+    border-radius: 0.4rem;
+    background: var(--portfolio-ink);
+    color: #fff;
+    content: attr(data-copy-label);
+    font-family: var(--font-mono);
+    font-size: 0.62rem;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    line-height: 1.4;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-50%);
+    transition: opacity 160ms ease;
+  }
+
+  .page__content .header-link.is-copied::after {
+    opacity: 1;
+  }
+
   @media (max-width: 900px) {
     .impact-strip {
       grid-template-columns: repeat(2, minmax(0, 1fr));

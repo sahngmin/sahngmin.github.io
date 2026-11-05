@@ -1,3 +1,68 @@
 <!-- start custom footer snippets -->
 
+<script>
+  // The theme appends a .header-link permalink icon to each heading; clicking it copies the
+  // section URL instead of jumping. Modified clicks (new tab, etc.) keep the default behaviour.
+  (function () {
+    function copyWithTextarea(text) {
+      var field = document.createElement("textarea");
+      field.value = text;
+      field.setAttribute("readonly", "");
+      field.style.position = "fixed";
+      field.style.opacity = "0";
+      document.body.appendChild(field);
+      field.select();
+      var copied = false;
+      try {
+        copied = document.execCommand("copy");
+      } finally {
+        document.body.removeChild(field);
+      }
+      if (!copied) throw new Error("copy failed");
+    }
+
+    function copyText(text) {
+      if (navigator.clipboard && window.isSecureContext) {
+        return navigator.clipboard.writeText(text).catch(function () {
+          copyWithTextarea(text);
+        });
+      }
+      return new Promise(function (resolve) {
+        copyWithTextarea(text);
+        resolve();
+      });
+    }
+
+    function flash(link, label) {
+      link.setAttribute("data-copy-label", label);
+      link.classList.add("is-copied");
+      clearTimeout(link.copyTimer);
+      link.copyTimer = setTimeout(function () {
+        link.classList.remove("is-copied");
+      }, 1600);
+    }
+
+    document.addEventListener("click", function (event) {
+      var link = event.target.closest && event.target.closest(".page__content .header-link");
+      if (!link || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+
+      event.preventDefault();
+      event.stopPropagation(); // keep the theme's smooth-scroll handler from scrolling
+      var hash = link.getAttribute("href");
+      history.replaceState(null, "", hash);
+      copyText(location.origin + location.pathname + hash).then(
+        function () { flash(link, "Link copied"); },
+        function () { flash(link, "Copy failed"); }
+      );
+    }, true);
+
+    window.addEventListener("load", function () {
+      document.querySelectorAll(".page__content .header-link").forEach(function (link) {
+        link.title = "Copy link to this section";
+        link.setAttribute("aria-label", "Copy link to this section");
+      });
+    });
+  })();
+</script>
+
 <!-- end custom footer snippets -->
